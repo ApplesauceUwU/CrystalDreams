@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gwrqg7nL474mNLsV06txsoIgcs2iGl9NCEoGAlTB+JLmaU92dFJPvnphsDQqlFYK2ceFw4DjuGwkzrjRIrGnIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Maple\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\CrystalDreams\\CrystalDreams.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maple\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
