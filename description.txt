@@ -11,7 +11,7 @@ This Mod adds in the following:
 	7 Yoyos
 	7 Bows
 	7 Guns
-	1 Special Ranged Weapon
+	1 Special Ranged Weapon [ this item is not yet fully functional ]
 1 New Ammo Type
 	12 versions of the ammo & endless varients of each (24 items)
 
