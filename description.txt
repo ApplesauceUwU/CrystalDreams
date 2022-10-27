@@ -1,5 +1,6 @@
 Crystal Dreams V0.4
 This is a personal project. Some stuff may be unbalanced.
+Code is available Here: https://github.com/ApplesauceUwU/CrystalDreams
 
 A new item called "Condensed Mana" has been introduced to the game!
 This item is an ammo type and is currently the focus of this mod.
