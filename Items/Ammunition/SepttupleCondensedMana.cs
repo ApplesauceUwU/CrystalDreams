@@ -27,53 +27,53 @@ namespace CrystalDreams.Items.Ammunition
 
         }
 		public override void AddRecipes() {
-			Recipe recipe0 = CreateRecipe();
+			Recipe recipe0 = CreateRecipe(9);
 				recipe0.AddIngredient(ItemID.ManaCrystal, 729);
 				recipe0.AddIngredient(ItemID.MythrilBar, 1);
 				recipe0.AddIngredient(ItemID.OrichalcumBar, 1);
 				recipe0.AddTile(TileID.MythrilAnvil);
 				recipe0.Register();
-			Recipe recipe1 = CreateRecipe();
+			Recipe recipe1 = CreateRecipe(9);
 				recipe1.AddIngredient(ItemID.FallenStar, 3645);
 				recipe1.AddIngredient(ItemID.MythrilBar, 1);
 				recipe1.AddIngredient(ItemID.OrichalcumBar, 1);
 				recipe1.AddTile(TileID.MythrilAnvil);
 				recipe1.Register();
-			Recipe recipe2 = CreateRecipe();
+			Recipe recipe2 = CreateRecipe(9);
 				recipe2.AddIngredient<CondensedMana>(729);
                 recipe2.AddIngredient(ItemID.MythrilBar, 1);
 				recipe2.AddIngredient(ItemID.OrichalcumBar, 1);
 				recipe2.AddTile(TileID.MythrilAnvil);
 				recipe2.Register();
-			Recipe recipe3 = CreateRecipe();
+			Recipe recipe3 = CreateRecipe(9);
 				recipe3.AddIngredient<DoubleCondensedMana>(243);
 
                 recipe3.AddIngredient(ItemID.MythrilBar, 1);
 				recipe3.AddIngredient(ItemID.OrichalcumBar, 1);
 				recipe3.AddTile(TileID.MythrilAnvil);
 				recipe3.Register();
-			Recipe recipe4 = CreateRecipe();
+			Recipe recipe4 = CreateRecipe(9);
 				recipe4.AddIngredient<TripleCondensedMana>(81);
 
                 recipe4.AddIngredient(ItemID.MythrilBar, 1);
 				recipe4.AddIngredient(ItemID.OrichalcumBar, 1);
 				recipe4.AddTile(TileID.MythrilAnvil);
 				recipe4.Register();
-			Recipe recipe5 = CreateRecipe();
+			Recipe recipe5 = CreateRecipe(9);
 				recipe5.AddIngredient<QuadrupleCondensedMana>(27);
 
                 recipe5.AddIngredient(ItemID.MythrilBar, 1);
 				recipe5.AddIngredient(ItemID.OrichalcumBar, 1);
 				recipe5.AddTile(TileID.MythrilAnvil);
 				recipe5.Register();
-			Recipe recipe6 = CreateRecipe();
+			Recipe recipe6 = CreateRecipe(9);
 				recipe6.AddIngredient<QuintupleCondensedMana>(9);
 
                 recipe6.AddIngredient(ItemID.MythrilBar, 1);
 				recipe6.AddIngredient(ItemID.OrichalcumBar, 1);
 				recipe6.AddTile(TileID.MythrilAnvil);
 				recipe6.Register();
-			Recipe recipe7 = CreateRecipe();
+			Recipe recipe7 = CreateRecipe(9);
 				recipe7.AddIngredient<SextupleCondensedMana>(3);
 				recipe7.AddIngredient(ItemID.MythrilBar, 1);
 				recipe7.AddIngredient(ItemID.OrichalcumBar, 1);

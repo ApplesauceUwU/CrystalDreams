@@ -25,11 +25,11 @@ namespace CrystalDreams.Items.Ammunition
 			Item.ammo = Item.type;
 		}
 		public override void AddRecipes() {
-			Recipe recipe0 = CreateRecipe();
+			Recipe recipe0 = CreateRecipe(9);
 				recipe0.AddIngredient(ItemID.ManaCrystal, 1);
 				recipe0.AddTile(TileID.WorkBenches);
 				recipe0.Register();
-			Recipe recipe1 = CreateRecipe();
+			Recipe recipe1 = CreateRecipe(9);
 				recipe1.AddIngredient(ItemID.FallenStar, 5);
 				recipe1.AddTile(TileID.WorkBenches);
 				recipe1.Register();

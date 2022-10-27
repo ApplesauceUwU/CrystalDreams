@@ -26,15 +26,15 @@ namespace CrystalDreams.Items.Ammunition
 			Item.ammo = ModContent.ItemType<CondensedMana>();
 		}
 		public override void AddRecipes() {
-			Recipe recipe0 = CreateRecipe();
+			Recipe recipe0 = CreateRecipe(9);
 				recipe0.AddIngredient(ItemID.ManaCrystal, 3);
 				recipe0.AddTile(TileID.Anvils);
 				recipe0.Register();
-			Recipe recipe1 = CreateRecipe();
+			Recipe recipe1 = CreateRecipe(9);
 				recipe1.AddIngredient(ItemID.FallenStar, 15);
 				recipe1.AddTile(TileID.Anvils);
 				recipe1.Register();
-			Recipe recipe2 = CreateRecipe();
+			Recipe recipe2 = CreateRecipe(9);
 				recipe2.AddIngredient<CondensedMana>(3);
 				recipe2.AddTile(TileID.Anvils);
 				recipe2.Register();

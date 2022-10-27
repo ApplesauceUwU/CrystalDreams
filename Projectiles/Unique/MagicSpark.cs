@@ -10,16 +10,6 @@ namespace CrystalDreams.Projectiles.Unique
         public override void SetStaticDefaults()
         {
         }
-       /*
-        public override void AI()
-        {
-            projectile.velocity.Y += projectile.ai[0];
-            if (Main.rand.NextBool(3))
-            {
-                Dust.NewDust(projectile.position + projectile.velocity, projectile.width, projectile.height, ModContent.DustType<Sparkle>(), projectile.velocity.X * 0.5f, projectile.velocity.Y * 0.5f);
-            }
-        }
-       */
         public override void PostAI()
         {
             if (Main.rand.NextBool())
@@ -29,6 +19,7 @@ namespace CrystalDreams.Projectiles.Unique
                 dust.scale = .85f;
             }
         }
+
         public override void SetDefaults()
         {
             Projectile.CloneDefaults(ProjectileID.PurificationPowder);
@@ -41,6 +32,12 @@ namespace CrystalDreams.Projectiles.Unique
             Projectile.penetrate = -1;
             Projectile.scale = 1f;
             AIType = ProjectileID.PurificationPowder;
+        }
+        public override void Kill(int timeLeft)
+        {
+            Collision.HitTiles(Projectile.position, Projectile.velocity, Projectile.width, Projectile.height);
+            
+            Projectile.timeLeft = 0;
         }
     }
 }

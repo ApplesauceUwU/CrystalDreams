@@ -2,7 +2,7 @@ Crystal Dreams V0.4
 This is a personal project. Some stuff may be unbalanced.
 
 A new item called "Condensed Mana" has been introduced to the game!
-This item an ammo type and is currently the focus of this mod.
+This item is an ammo type and is currently the focus of this mod.
 In the future upgraded versions of the gem weapons will be added. (For use in hardmode)
 
 This Mod adds in the following:
@@ -11,7 +11,7 @@ This Mod adds in the following:
 	7 Yoyos
 	7 Bows
 	7 Guns
-	1 Special Ranged Weapon [ this item is not yet fully functional ]
+	1 Special Weapon
 1 New Ammo Type
 	12 versions of the ammo & endless varients of each (24 items)
 

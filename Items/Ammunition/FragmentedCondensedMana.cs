@@ -26,7 +26,7 @@ namespace CrystalDreams.Items.Ammunition
             Item.ammo = ModContent.ItemType<CondensedMana>();
         }
 		public override void AddRecipes() {
-			Recipe recipe0 = CreateRecipe();
+			Recipe recipe0 = CreateRecipe(9);
 				recipe0.AddIngredient(ItemID.ManaCrystal, 59049);
 				recipe0.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe0.AddIngredient(ItemID.FragmentVortex, 1);
@@ -34,7 +34,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe0.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe0.AddTile(TileID.MythrilAnvil);
 				recipe0.Register();
-			Recipe recipe1 = CreateRecipe();
+			Recipe recipe1 = CreateRecipe(9);
 				recipe1.AddIngredient(ItemID.FallenStar, 295245);
 				recipe1.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe1.AddIngredient(ItemID.FragmentVortex, 1);
@@ -42,7 +42,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe1.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe1.AddTile(TileID.MythrilAnvil);
 				recipe1.Register();
-			Recipe recipe2 = CreateRecipe();
+			Recipe recipe2 = CreateRecipe(9);
 				recipe2.AddIngredient<CondensedMana>(59049);
 				recipe2.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe2.AddIngredient(ItemID.FragmentVortex, 1);
@@ -50,7 +50,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe2.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe2.AddTile(TileID.MythrilAnvil);
 				recipe2.Register();
-			Recipe recipe3 = CreateRecipe();
+			Recipe recipe3 = CreateRecipe(9);
 				recipe3.AddIngredient<DoubleCondensedMana>(19683);
 				recipe3.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe3.AddIngredient(ItemID.FragmentVortex, 1);
@@ -58,7 +58,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe3.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe3.AddTile(TileID.MythrilAnvil);
 				recipe3.Register();
-			Recipe recipe4 = CreateRecipe();
+			Recipe recipe4 = CreateRecipe(9);
 				recipe4.AddIngredient<TripleCondensedMana>(6561);
 				recipe4.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe4.AddIngredient(ItemID.FragmentVortex, 1);
@@ -66,7 +66,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe4.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe4.AddTile(TileID.MythrilAnvil);
 				recipe4.Register();
-			Recipe recipe5 = CreateRecipe();
+			Recipe recipe5 = CreateRecipe(9);
 				recipe5.AddIngredient<QuadrupleCondensedMana>(2187);
 				recipe5.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe5.AddIngredient(ItemID.FragmentVortex, 1);
@@ -74,7 +74,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe5.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe5.AddTile(TileID.MythrilAnvil);
 				recipe5.Register();
-			Recipe recipe6 = CreateRecipe();
+			Recipe recipe6 = CreateRecipe(9);
 				recipe6.AddIngredient<QuintupleCondensedMana>(729);
 				recipe6.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe6.AddIngredient(ItemID.FragmentVortex, 1);
@@ -82,7 +82,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe6.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe6.AddTile(TileID.MythrilAnvil);
 				recipe6.Register();
-			Recipe recipe7 = CreateRecipe();
+			Recipe recipe7 = CreateRecipe(9);
 				recipe7.AddIngredient<SextupleCondensedMana>(243);
 				recipe7.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe7.AddIngredient(ItemID.FragmentVortex, 1);
@@ -90,7 +90,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe7.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe7.AddTile(TileID.MythrilAnvil);
 				recipe7.Register();
-			Recipe recipe8 = CreateRecipe();
+			Recipe recipe8 = CreateRecipe(9);
 				recipe8.AddIngredient<SepttupleCondensedMana>(81);
 				recipe8.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe8.AddIngredient(ItemID.FragmentVortex, 1);
@@ -98,7 +98,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe8.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe8.AddTile(TileID.MythrilAnvil);
 				recipe8.Register();
-			Recipe recipe9 = CreateRecipe();
+			Recipe recipe9 = CreateRecipe(9);
 				recipe9.AddIngredient<OcttupleCondensedMana>(27);
 				recipe9.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe9.AddIngredient(ItemID.FragmentVortex, 1);
@@ -106,7 +106,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe9.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe9.AddTile(TileID.MythrilAnvil);
 				recipe9.Register();
-			Recipe recipe10 = CreateRecipe();
+			Recipe recipe10 = CreateRecipe(9);
 				recipe10.AddIngredient<NontupleCondensedMana>(9);
 				recipe10.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe10.AddIngredient(ItemID.FragmentVortex, 1);
@@ -114,7 +114,7 @@ namespace CrystalDreams.Items.Ammunition
 				recipe10.AddIngredient(ItemID.FragmentStardust, 1);
 				recipe10.AddTile(TileID.MythrilAnvil);
 				recipe10.Register();
-			Recipe recipe11 = CreateRecipe();
+			Recipe recipe11 = CreateRecipe(9);
 				recipe11.AddIngredient<DectupleCondensedMana>(3);
 				recipe11.AddIngredient(ItemID.FragmentSolar, 1);
 				recipe11.AddIngredient(ItemID.FragmentVortex, 1);

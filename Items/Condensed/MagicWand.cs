@@ -5,6 +5,8 @@ using Terraria;
 using CrystalDreams.Projectiles.Unique;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.DataStructures;
+using System;
 
 namespace CrystalDreams.Items.Condensed
 {
@@ -28,7 +30,7 @@ namespace CrystalDreams.Items.Condensed
             Item.useTime = 12;
             Item.useAnimation = 11;
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.knockBack = 2;
+            Item.knockBack = 1;
             Item.UseSound = SoundID.Item8;
             Item.noMelee = true;
             Item.shoot = ModContent.ProjectileType<MagicSpark>();
@@ -39,7 +41,12 @@ namespace CrystalDreams.Items.Condensed
 			Item.value = Item.sellPrice(silver: 5);
 			Item.autoReuse = false;
 		}
-
+        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
+        {
+            Vector2 perturbedSpeed = velocity * .2f;
+            Projectile.NewProjectile(source, position, perturbedSpeed, ModContent.ProjectileType<MagicSpark>(), damage, knockback, player.whoAmI);
+            return false;
+        }
         public override Vector2? HoldoutOffset()
         {
             return new Vector2(-1f, -2f);
