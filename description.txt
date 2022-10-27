@@ -37,3 +37,5 @@ Version 0.3.1
 Version 0.4
 	Added Condensed Mana (A new form of ammo crafted with the stars!)
 	Added a new weapon to use this new form of ammo.
+Version 0.4.1
+	Once again retextured the Gem Yoyo's
