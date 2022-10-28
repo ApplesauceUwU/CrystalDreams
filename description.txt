@@ -1,4 +1,4 @@
-Crystal Dreams V0.4.4
+Crystal Dreams V0.4.5
 This is a personal project. Some stuff may be unbalanced.
 Code is available Here: https://github.com/ApplesauceUwU/CrystalDreams
 
@@ -20,6 +20,8 @@ I created all textures using Paint3D (I know, whats wrong with me?)
 CS files created in Visual Studio Community 2022.
 
 Changelog:
+Version 0.4.5
+	Fixed all the issues I caused before testing anything (me = dummy)
 Version 0.4.4
 	Remove excess recipes from CM
 	
