@@ -22,7 +22,7 @@ namespace CrystalDreams.Items.Condensed
 
 		public override void SetDefaults()
 		{
-			Item.DamageType = DamageClass.Ranged;
+			Item.DamageType = DamageClass.Magic;
 			Item.knockBack = 0;
 			Item.damage = 7;
 			Item.rare = ItemRarityID.Blue;
