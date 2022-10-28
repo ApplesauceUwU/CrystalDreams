@@ -7,6 +7,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
 using System;
+using Terraria.GameContent.Creative;
 
 namespace CrystalDreams.Items.Condensed
 {
@@ -16,6 +17,7 @@ namespace CrystalDreams.Items.Condensed
 		{
 			DisplayName.SetDefault("Magic Wand");
 			Tooltip.SetDefault("");
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
 
 		public override void SetDefaults()

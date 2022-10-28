@@ -1,4 +1,4 @@
-Crystal Dreams V0.4
+Crystal Dreams V0.4.4
 This is a personal project. Some stuff may be unbalanced.
 Code is available Here: https://github.com/ApplesauceUwU/CrystalDreams
 
@@ -20,22 +20,32 @@ I created all textures using Paint3D (I know, whats wrong with me?)
 CS files created in Visual Studio Community 2022.
 
 Changelog:
-Version 0.1
-	Added 7 Gem Yoyos
-
-Version 0.2
-	Added 7 Gem Bows
-	Updated All Gem Yoyo textures
-
-Version 0.3
-	Added 7 Gem Guns
-
-Version 0.3.1
-	Fixed Shotgun (Bullets no longer freeze mid-air)
-	Reorganised folder structure
-
+Version 0.4.4
+	Remove excess recipes from CM
+	
+Version 0.4.3
+	CM Projectile Textures removed until needed
+	
+Version 0.4.2
+	Journey Mode Smashies added to all items
+	
+Version 0.4.1
+	Once again retextured the Gem Yoyo's
+	
 Version 0.4
 	Added Condensed Mana (A new form of ammo crafted with the stars!)
 	Added a new weapon to use this new form of ammo.
-Version 0.4.1
-	Once again retextured the Gem Yoyo's
+	
+Version 0.3.1
+	Fixed Shotgun (Bullets no longer freeze mid-air)
+	Reorganised folder structure
+	
+Version 0.3
+	Added 7 Gem Guns
+	
+Version 0.2
+	Added 7 Gem Bows
+	Updated All Gem Yoyo textures
+	
+Version 0.1
+	Added 7 Gem Yoyos

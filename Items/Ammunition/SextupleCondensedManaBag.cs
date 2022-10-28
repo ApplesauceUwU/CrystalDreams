@@ -11,7 +11,7 @@ namespace CrystalDreams.Items.Ammunition
 		{
 			DisplayName.SetDefault("Endless 6x Condensed Mana");
 			Tooltip.SetDefault("");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 		public override void SetDefaults()
 		{
@@ -33,22 +33,6 @@ namespace CrystalDreams.Items.Ammunition
 			recipe0.AddIngredient<SextupleCondensedMana>(3996);
 			recipe0.AddTile(TileID.CrystalBall);
 			recipe0.Register();
-			Recipe recipe1 = CreateRecipe();
-			recipe1.AddIngredient<CondensedManaBag>(243);
-			recipe1.AddTile(TileID.CrystalBall);
-			recipe1.Register();
-			Recipe recipe2 = CreateRecipe();
-			recipe2.AddIngredient<DoubleCondensedManaBag>(81);
-			recipe2.AddTile(TileID.CrystalBall);
-			recipe2.Register();
-			Recipe recipe3 = CreateRecipe();
-			recipe3.AddIngredient<TripleCondensedManaBag>(27);
-			recipe3.AddTile(TileID.CrystalBall);
-			recipe3.Register();
-			Recipe recipe4 = CreateRecipe();
-			recipe4.AddIngredient<QuadrupleCondensedManaBag>(9);
-			recipe4.AddTile(TileID.CrystalBall);
-			recipe4.Register();
 			Recipe recipe5 = CreateRecipe();
 			recipe5.AddIngredient<QuintupleCondensedManaBag>(3);
 			recipe5.AddTile(TileID.CrystalBall);

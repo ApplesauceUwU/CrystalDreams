@@ -11,7 +11,7 @@ namespace CrystalDreams.Items.Ammunition
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Endless Condensed Mana");
 			Tooltip.SetDefault("");
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 		public override void SetDefaults() {
 			Item.damage = 5;
