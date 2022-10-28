@@ -35,7 +35,7 @@ namespace CrystalDreams.Items.Condensed
             Item.knockBack = 6;
             Item.UseSound = SoundID.Item8;
             Item.noMelee = true;
-            Item.shoot = ModContent.ItemType<CondensedMana>();
+			Item.shoot = ProjectileID.Bullet;
             Item.useAmmo = ModContent.ItemType<CondensedMana>();
             Item.shootSpeed = 6.6f;
             Item.autoReuse = false;
@@ -50,8 +50,8 @@ namespace CrystalDreams.Items.Condensed
         public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.Wood, 12);
-			recipe.AddIngredient<CondensedMana>(8);
+			recipe.AddIngredient(ItemID.PlatinumBar, 14);
+			recipe.AddIngredient<CondensedMana>(10);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}
