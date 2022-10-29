@@ -10,22 +10,22 @@ namespace CrystalDreams.Items.Ammunition
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Endless Condensed Mana");
+            DisplayName.SetDefault("Condensed Mana");
             Tooltip.SetDefault("");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
         public override void SetDefaults()
         {
             Item.damage = 5;
-            Item.DamageType = DamageClass.Ranged;
-            Item.width = 8;
-            Item.height = 8;
+            Item.DamageType = DamageClass.Magic;
+            Item.width = 6;
+            Item.height = 6;
             Item.maxStack = 9999;
-            Item.consumable = false;
+            Item.consumable = true;
             Item.knockBack = 1f;
             Item.value = Item.sellPrice(silver: 10);
             Item.shoot = ModContent.ProjectileType<Projectiles.CondensedMana.LvlOne>();
-            Item.shootSpeed = 30f;
+            Item.shootSpeed = 10f;
             Item.ammo = ModContent.ItemType<CondensedMana>();
         }
         public override void AddRecipes() {

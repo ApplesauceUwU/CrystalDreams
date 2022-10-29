@@ -14,9 +14,9 @@ namespace CrystalDreams.Items.Ammunition
 		}
 		public override void SetDefaults() {
 			Item.damage = 75;
-			Item.DamageType = DamageClass.Ranged;
-			Item.width = 8;
-			Item.height = 8;
+			Item.DamageType = DamageClass.Magic;
+			Item.width = 6;
+			Item.height = 6;
 			Item.maxStack = 9999;
 			Item.consumable = false;
 			Item.knockBack = 28f;

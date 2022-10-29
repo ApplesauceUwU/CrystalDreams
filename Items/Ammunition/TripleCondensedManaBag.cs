@@ -14,15 +14,15 @@ namespace CrystalDreams.Items.Ammunition
 		}
 		public override void SetDefaults() {
 			Item.damage = 15;
-			Item.DamageType = DamageClass.Ranged;
-			Item.width = 8;
-			Item.height = 8;
+			Item.DamageType = DamageClass.Magic;
+			Item.width = 6;
+			Item.height = 6;
 			Item.maxStack = 9999;
 			Item.consumable = false;
 			Item.knockBack = 4f;
 			Item.value = Item.sellPrice(silver: 20);
 			Item.shoot = ModContent.ProjectileType<Projectiles.CondensedMana.LvlThree>();
-			Item.shootSpeed = 20f;
+			Item.shootSpeed = 10f;
 			Item.ammo = ModContent.ItemType<CondensedMana>();
 		}
 		public override void AddRecipes() {
