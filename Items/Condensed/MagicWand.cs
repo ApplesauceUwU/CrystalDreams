@@ -2,7 +2,6 @@ using CrystalDreams.Items.Ammunition;
 using CrystalDreams.Projectiles.Unique;
 using Microsoft.Xna.Framework;
 using Terraria;
-using CrystalDreams.Projectiles.Unique;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
@@ -45,7 +44,7 @@ namespace CrystalDreams.Items.Condensed
 		}
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Vector2 perturbedSpeed = velocity * .2f;
+            Vector2 perturbedSpeed = velocity * .3f;
             Projectile.NewProjectile(source, position, perturbedSpeed, ModContent.ProjectileType<MagicSpark>(), damage, knockback, player.whoAmI);
             return false;
         }
