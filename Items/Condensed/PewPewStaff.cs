@@ -2,7 +2,6 @@ using CrystalDreams.Items.Ammunition;
 using CrystalDreams.Projectiles.Unique;
 using Microsoft.Xna.Framework;
 using Terraria;
-using CrystalDreams.Projectiles.Unique;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
@@ -43,6 +42,12 @@ namespace CrystalDreams.Items.Condensed
 			Item.value = Item.sellPrice(silver: 5);
 			Item.autoReuse = false;
 		}
+        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
+        {
+            Vector2 perturbedSpeed = velocity * 1f;
+            Projectile.NewProjectile(source, position, perturbedSpeed, ProjectileID.Bullet, damage, knockback, player.whoAmI);
+            return false;
+        }
         public override Vector2? HoldoutOffset()
         {
             return new Vector2(-1f, -2f);
@@ -50,7 +55,8 @@ namespace CrystalDreams.Items.Condensed
         public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.PlatinumBar, 14);
+			recipe.AddIngredient(ItemID.PlatinumBar, 7);
+			recipe.AddIngredient(ItemID.Wood,14);
 			recipe.AddIngredient<CondensedMana>(10);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
