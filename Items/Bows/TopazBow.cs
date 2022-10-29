@@ -26,11 +26,11 @@ namespace CrystalDreams.Items.Bows
             Item.maxStack = 1;
             Item.useTime = 27;
             Item.useAnimation = 26;
-            Item.useStyle = 5;
+            Item.useStyle = ItemUseStyleID.Shoot;
             Item.knockBack = 2;
             Item.UseSound = SoundID.Item5;
             Item.noMelee = true;
-            Item.shoot = 1;
+            Item.shoot = ProjectileID.WoodenArrowFriendly;
             Item.useAmmo = AmmoID.Arrow;
             Item.shootSpeed = 6.6f;
             Item.autoReuse = false;
